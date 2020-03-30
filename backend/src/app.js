@@ -10,4 +10,4 @@ app.use(express.json()); // converter o corpo da requisição em json
 app.use(routes); //deve estar abaixo do express
 app.use(errors());
 
-app.listen(3333);
+module.exports = app;
